@@ -108,6 +108,7 @@ namespace ADCImportExport
                     //      query for the description if column has it then write it
 
                     //testing github commit
+                    //another test github
 
                     var table_desc = asset.SelectToken("descriptions");
                     JToken table_description = JObject.Parse("{'descriptions': ['properties': {'description':]}}");
